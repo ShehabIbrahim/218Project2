@@ -29,7 +29,7 @@ $stmt = $pdo->prepare('SELECT * FROM contacts');
 $stmt->execute();
 $contacts = $stmt->fetchObject();
 
-print_r($contacts)
+print_r($contacts);
 
 $title = "Project 2";
 include("header.php");
