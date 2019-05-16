@@ -75,7 +75,7 @@ final class CodeTest extends TestCase
     {
         echo file_exists('SQLiteConnection');
     }
-    
+
     public function testUploadTableFile()
     {
         echo file_exists('UploadTable');
